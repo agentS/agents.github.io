@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/bootstrap_min.css" />
+
+	<title>Playfair WebAssembly</title>
+</head>
+<body class="m-1">
+	<h1>Playfair Cipher</h1>
+	<p>
+		<a href="https://en.wikipedia.org/wiki/Playfair_cipher">Description of the algorithm</a>
+	</p>
+
+	<form id="fPlayfairCipher" onsubmit="performPlayfairCipher(event)">
+		<div class="mb-3">
+			<label for="txtKey" class="form-label">Key</label>
+			<input type="password" id="txtKey" class="form-control" placeholder="Key" value="Playfair example" required />
+		</div>
+		<div class="mb-3">
+			<label for="txtPlainText" class="form-label">Plain text</label>
+			<input type="text" id="txtPlainText" class="form-control" placeholder="Plain text" value="Hide the gold in the tree stump." />
+		</div>
+		<div class="mb-3">
+			<label for="txtCipherText" class="form-label">Cipher text</label>
+			<input type="text" id="txtCipherText" class="form-control" placeholder="Cipher text" />
+		</div>
+		<div class="mb-3">
+			<input type="submit" id="btnSubmit" value="Encrypt or decrypt" class="btn btn-primary" />
+		</div>
+	</form>
+
+	<script type="text/javascript" src="js/bootstrap_min.js"></script>
+	<script type="text/javascript" src="js/playfair.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
