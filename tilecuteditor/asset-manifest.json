@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/tilecuteditor/static/js/main.1139372d.chunk.js",
+    "main.js.map": "/tilecuteditor/static/js/main.1139372d.chunk.js.map",
+    "runtime-main.js": "/tilecuteditor/static/js/runtime-main.02a7745b.js",
+    "runtime-main.js.map": "/tilecuteditor/static/js/runtime-main.02a7745b.js.map",
+    "static/js/2.ba15e5d8.chunk.js": "/tilecuteditor/static/js/2.ba15e5d8.chunk.js",
+    "static/js/2.ba15e5d8.chunk.js.map": "/tilecuteditor/static/js/2.ba15e5d8.chunk.js.map",
+    "static/js/3.16c1bada.chunk.js": "/tilecuteditor/static/js/3.16c1bada.chunk.js",
+    "static/js/3.16c1bada.chunk.js.map": "/tilecuteditor/static/js/3.16c1bada.chunk.js.map",
+    "index.html": "/tilecuteditor/index.html",
+    "static/js/2.ba15e5d8.chunk.js.LICENSE.txt": "/tilecuteditor/static/js/2.ba15e5d8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02a7745b.js",
+    "static/js/2.ba15e5d8.chunk.js",
+    "static/js/main.1139372d.chunk.js"
+  ]
+}
